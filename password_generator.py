@@ -57,4 +57,5 @@ for _ in final_password:
     s=s+[_]
 
 random.shuffle(s)
-print(''.join(s))               ###shuffled, hard mode
+print(f"Your password is \n{''.join(s)}")                  ###shuffled, hard mode
+
